@@ -1,5 +1,5 @@
 
-## RM's
+## RM's 👤
 - `Caio Suzano Ferreira da Silva: RM 554763`
 - `Matheus Rivera Montovaneli: RM 555499`
 - `Lucas Vasquez Silva: RM 555159`
@@ -97,7 +97,9 @@ https://wokwi.com/projects/410551824578875393
    - **GND** → **GND**
    - **Data** → **GPIO 23**
 
-  
+  ### No final é para ficar com as conexões assim
+  ![image](https://github.com/user-attachments/assets/5f8f338a-ffa0-467a-b88c-edefdfad9bd5)
+
 
 ---
 
