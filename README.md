@@ -84,20 +84,20 @@ https://wokwi.com/projects/410551824578875393
 2. Escolha **ESP32** e adicione:
    - **DHT22** (sensor de temperatura e umidade)
    - **LDR** (sensor de luminosidade)
-   - **Resistor** de 10K Ohms para o LDR.
 
 ### 2. Conectar os Componentes
 
 1. **LDR**:
    - **Uma extremidade** → **3.3V**
-   - **Outra extremidade** → **GPIO 35** (A0), com resistor para **GND**.
+   - **Outra extremidade** → **GPIO 35** (A0)
+   - **GND** → **GND**
 
 2. **DHT22**:
    - **VCC** → **3.3V**
    - **GND** → **GND**
    - **Data** → **GPIO 23**
 
-  ### No final é para ficar com as conexões assim
+  ### No final é para o circuito ficar com as conexões assim
   ![image](https://github.com/user-attachments/assets/5f8f338a-ffa0-467a-b88c-edefdfad9bd5)
 
 
@@ -211,6 +211,17 @@ void loop() {
    - `Azure/Temperature`
    - `Azure/Humidity`
    - `Azure/Luminosity`
+  
+## Assim é para ficar os nós no Node-RED e os tópicos 
+![image](https://github.com/user-attachments/assets/9759e5a1-fcb8-4b60-b272-d25d9819e411)
+![image](https://github.com/user-attachments/assets/c78f3c81-66e4-4211-b3e1-91bfecf99d23)
+
+
+
+## Se você configurou tudo certo no Node-RED e no Wokwi quando você for ver a dashboard é para estar mais ou menos assim, com os respectivos dados que você está enviando:
+![image](https://github.com/user-attachments/assets/8d12e055-0616-47e0-b079-e11d984be670)
+
+
 
 ---
 
